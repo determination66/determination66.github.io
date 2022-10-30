@@ -105,9 +105,10 @@ pre {
     border-radius: 0.35rem;
     tab-size: 4;
 }
-
+/*我添加的样式，要把前面hexo中的配置文件改为highlight:false*/
 .code-area{
     background-color: rgb(39, 40, 34);
+    border-radius: 0.6em;
 }
 
 .code-area::after {
@@ -1192,6 +1193,7 @@ article .article-tags .chip {
     max-width: 100%;
     height: auto;
     cursor: pointer;
+    border-radius:0.6em;
 }
 
 #articleContent video {
@@ -1229,6 +1231,7 @@ article .article-tags .chip {
     border-collapse: collapse;
     border-spacing: 0;
     overflow: auto;
+    border-radius:5px;
 }
 
 /**
