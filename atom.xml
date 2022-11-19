@@ -6,7 +6,7 @@
   <link href="http://determination66.github.io/atom.xml" rel="self"/>
   
   <link href="http://determination66.github.io/"/>
-  <updated>2022-11-05T03:32:14.757Z</updated>
+  <updated>2022-11-19T14:44:24.034Z</updated>
   <id>http://determination66.github.io/</id>
   
   <author>
@@ -17,15 +17,31 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>test</title>
-    <link href="http://determination66.github.io/2022/11/05/test/"/>
-    <id>http://determination66.github.io/2022/11/05/test/</id>
-    <published>2022-11-05T03:32:14.000Z</published>
-    <updated>2022-11-05T03:32:14.757Z</updated>
+    <title>idea的配置</title>
+    <link href="http://determination66.github.io/2022/11/19/an-zhuang-jiao-cheng/"/>
+    <id>http://determination66.github.io/2022/11/19/an-zhuang-jiao-cheng/</id>
+    <published>2022-11-19T14:32:14.000Z</published>
+    <updated>2022-11-19T14:44:24.034Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;首先说明一下&quot;&gt;&lt;a href=&quot;#首先说明一下&quot; class=&quot;headerlink&quot; title=&quot;首先说明一下&quot;&gt;&lt;/a&gt;首先说明一下&lt;/h2&gt;&lt;h3 id=&quot;第三步的3那些全勾上，直接配置好环境变量和文件相关关系&quot;&gt;&lt;a</summary>
+        
+      
     
     
     
+    <category term="idea" scheme="http://determination66.github.io/categories/idea/"/>
     
+    <category term="java" scheme="http://determination66.github.io/categories/idea/java/"/>
+    
+    
+    <category term="idea" scheme="http://determination66.github.io/tags/idea/"/>
+    
+    <category term="java" scheme="http://determination66.github.io/tags/java/"/>
     
   </entry>
   
@@ -34,7 +50,7 @@
     <link href="http://determination66.github.io/2022/11/03/net/"/>
     <id>http://determination66.github.io/2022/11/03/net/</id>
     <published>2022-11-03T12:03:36.000Z</published>
-    <updated>2022-11-03T13:08:16.210Z</updated>
+    <updated>2022-11-19T14:15:16.637Z</updated>
     
     
       
