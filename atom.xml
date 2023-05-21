@@ -6,7 +6,7 @@
   <link href="http://determination66.top/atom.xml" rel="self"/>
   
   <link href="http://determination66.top/"/>
-  <updated>2023-05-21T13:45:18.478Z</updated>
+  <updated>2023-05-21T15:20:59.904Z</updated>
   <id>http://determination66.top/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://determination66.top/2023/05/23/chang-yong-lian-jie-zheng-li/"/>
     <id>http://determination66.top/2023/05/23/chang-yong-lian-jie-zheng-li/</id>
     <published>2023-05-23T12:25:00.000Z</published>
-    <updated>2023-05-21T13:45:18.478Z</updated>
+    <updated>2023-05-21T15:20:59.904Z</updated>
     
     
       
@@ -41,9 +41,69 @@
     <category term="记录整理" scheme="http://determination66.top/categories/%E8%AE%B0%E5%BD%95%E6%95%B4%E7%90%86/"/>
     
     
+    <category term="常用链接整理" scheme="http://determination66.top/tags/%E5%B8%B8%E7%94%A8%E9%93%BE%E6%8E%A5%E6%95%B4%E7%90%86/"/>
+    
     <category term="Markdown" scheme="http://determination66.top/tags/Markdown/"/>
     
+  </entry>
+  
+  <entry>
+    <title>我在搭建的时候遇到的问题总结</title>
+    <link href="http://determination66.top/2023/05/21/wo-zai-da-jian-de-shi-hou-yu-dao-de-wen-ti-zong-jie/"/>
+    <id>http://determination66.top/2023/05/21/wo-zai-da-jian-de-shi-hou-yu-dao-de-wen-ti-zong-jie/</id>
+    <published>2023-05-21T15:36:15.000Z</published>
+    <updated>2023-05-21T15:45:34.728Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;这份hexo博客我还是搭建了很久，其中也遇到了很多问题，通过查询，最终解决了很多困难&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;官方文档&quot;&gt;&lt;a href=&quot;#官方文档&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="记录整理" scheme="http://determination66.top/categories/%E8%AE%B0%E5%BD%95%E6%95%B4%E7%90%86/"/>
+    
+    
+    <category term="hexo" scheme="http://determination66.top/tags/hexo/"/>
+    
+    <category term="matery" scheme="http://determination66.top/tags/matery/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>imgTest</title>
+    <link href="http://determination66.top/2023/05/21/imgtest/"/>
+    <id>http://determination66.top/2023/05/21/imgtest/</id>
+    <published>2023-05-21T15:23:53.000Z</published>
+    <updated>2023-05-21T15:29:24.539Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;测试图片&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;插入图片&quot;&gt;&lt;a href=&quot;#插入图片&quot; class=&quot;headerlink&quot; title=&quot;插入图片&quot;&gt;&lt;/a&gt;插入图片&lt;/h3&gt;&lt;pre class=&quot;line-numbers</summary>
+        
+      
+    
+    
+    
+    <category term="记录整理" scheme="http://determination66.top/categories/%E8%AE%B0%E5%BD%95%E6%95%B4%E7%90%86/"/>
+    
+    
     <category term="常用链接整理" scheme="http://determination66.top/tags/%E5%B8%B8%E7%94%A8%E9%93%BE%E6%8E%A5%E6%95%B4%E7%90%86/"/>
+    
+    <category term="Markdown" scheme="http://determination66.top/tags/Markdown/"/>
     
   </entry>
   
@@ -52,7 +112,7 @@
     <link href="http://determination66.top/2023/05/18/hello-world/"/>
     <id>http://determination66.top/2023/05/18/hello-world/</id>
     <published>2023-05-18T02:30:17.082Z</published>
-    <updated>2023-05-21T14:21:15.044Z</updated>
+    <updated>2023-05-21T15:46:37.623Z</updated>
     
     
       
@@ -92,9 +152,9 @@
     <category term="测试" scheme="http://determination66.top/categories/%E6%B5%8B%E8%AF%95/"/>
     
     
-    <category term="test" scheme="http://determination66.top/tags/test/"/>
-    
     <category term="Markdown" scheme="http://determination66.top/tags/Markdown/"/>
+    
+    <category term="test" scheme="http://determination66.top/tags/test/"/>
     
   </entry>
   

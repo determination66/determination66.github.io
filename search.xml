@@ -20,9 +20,63 @@
       
         <tags>
             
+            <tag> 常用链接整理 </tag>
+            
             <tag> Markdown </tag>
             
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>我在搭建的时候遇到的问题总结</title>
+      <link href="/2023/05/21/wo-zai-da-jian-de-shi-hou-yu-dao-de-wen-ti-zong-jie/"/>
+      <url>/2023/05/21/wo-zai-da-jian-de-shi-hou-yu-dao-de-wen-ti-zong-jie/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>这份hexo博客我还是搭建了很久，其中也遇到了很多问题，通过查询，最终解决了很多困难</p></blockquote><h2 id="官方文档"><a href="#官方文档" class="headerlink" title="官方文档"></a>官方文档</h2><p>这个其实还是很重要的，他会告诉你很多原理，和操作方法。<br><a href="https://hexo.io/zh-cn/docs/">hexo官方文档</a></p><h2 id="文章图片问题"><a href="#文章图片问题" class="headerlink" title="文章图片问题"></a>文章图片问题</h2><p>出现过图片无法访问<br><a href="https://zhuanlan.zhihu.com/p/542101567">文章图片问题</a><br><a href="https://juejin.cn/post/7006594302604214280">文章图片问题</a></p><h2 id="评论问题"><a href="#评论问题" class="headerlink" title="评论问题"></a>评论问题</h2><p>出现评论问题，我使用的是,Valine这个评论模块<br><a href="https://blog.csdn.net/qq_44732432/article/details/124715560">评论问题</a></p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p> 通过搭建博客，学到了很多，这个博客简直是傻瓜式操作，如果有问题可以在下面留言。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 记录整理 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> matery </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>imgTest</title>
+      <link href="/2023/05/21/imgtest/"/>
+      <url>/2023/05/21/imgtest/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>测试图片</p></blockquote><h3 id="插入图片"><a href="#插入图片" class="headerlink" title="插入图片"></a>插入图片</h3><pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown"><span class="token url"><span class="token operator">!</span>[<span class="token content">alt名称</span>](<span class="token url">img1.jpg</span>)</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p><img src="img1.jpg" alt="img1"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 记录整理 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
             <tag> 常用链接整理 </tag>
+            
+            <tag> Markdown </tag>
             
         </tags>
       
@@ -35,7 +89,7 @@
       <link href="/2023/05/18/hello-world/"/>
       <url>/2023/05/18/hello-world/</url>
       
-        <content type="html"><![CDATA[<p>欢迎使用 <a href="https://hexo.io/">Hexo</a>！这是你的第一篇文章。如果你需要更多信息，请查看<a href="https://hexo.io/docs/">文档</a>。如果在使用 Hexo 过程中遇到任何问题，你可以在<a href="https://hexo.io/docs/troubleshooting.html">故障排除</a>中找到答案，或者在<a href="https://github.com/hexojs/hexo/issues">GitHub</a>上寻求帮助。</p><h2 id="快速开始"><a href="#快速开始" class="headerlink" title="快速开始"></a>快速开始</h2><h3 id="创建新文章"><a href="#创建新文章" class="headerlink" title="创建新文章"></a>创建新文章</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>更多信息: <a href="https://hexo.io/docs/writing.html">写作</a></p><h3 id="运行服务器"><a href="#运行服务器" class="headerlink" title="运行服务器"></a>运行服务器</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>更多信息: <a href="https://hexo.io/docs/server.html">服务器</a></p><h3 id="生成静态文件"><a href="#生成静态文件" class="headerlink" title="生成静态文件"></a>生成静态文件</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>更多信息: <a href="https://hexo.io/docs/generating.html">生成</a></p><h3 id="部署到远程站点"><a href="#部署到远程站点" class="headerlink" title="部署到远程站点"></a>部署到远程站点</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>更多信息: <a href="https://hexo.io/docs/one-command-deployment.html">部署</a></p>]]></content>
+        <content type="html"><![CDATA[<p>欢迎使用 <a href="https://hexo.io/">Hexo</a>！这是你的第一篇文章。如果你需要更多信息，请查看<a href="https://hexo.io/docs/">文档</a>。如果在使用 Hexo 过程中遇到任何问题，你可以在<a href="https://hexo.io/docs/troubleshooting.html">故障排除</a>中找到答案，或者在<a href="https://github.com/hexojs/hexo/issues">GitHub</a>上寻求帮助。</p><h2 id="快速开始"><a href="#快速开始" class="headerlink" title="快速开始"></a>快速开始</h2><h3 id="创建新文章"><a href="#创建新文章" class="headerlink" title="创建新文章"></a>创建新文章</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>更多信息: <a href="https://hexo.io/docs/writing.html">writing</a></p><h3 id="运行服务器"><a href="#运行服务器" class="headerlink" title="运行服务器"></a>运行服务器</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>更多信息: <a href="https://hexo.io/docs/server.html">server</a></p><h3 id="生成静态文件"><a href="#生成静态文件" class="headerlink" title="生成静态文件"></a>生成静态文件</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>更多信息: <a href="https://hexo.io/docs/generating.html">generate</a></p><h3 id="部署到远程站点"><a href="#部署到远程站点" class="headerlink" title="部署到远程站点"></a>部署到远程站点</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>更多信息: <a href="https://hexo.io/docs/one-command-deployment.html">depoly</a></p>]]></content>
       
       
       
@@ -60,9 +114,9 @@
       
         <tags>
             
-            <tag> test </tag>
-            
             <tag> Markdown </tag>
+            
+            <tag> test </tag>
             
         </tags>
       
