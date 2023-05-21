@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="zh-cn">
+<html lang="zh-CN">
 
 
 <head>
@@ -217,7 +217,7 @@
   
   <li>
     <a href="#searchModal" class="modal-trigger waves-effect waves-light">
-      <i id="searchIcon" class="fas fa-search" title="Search" style="zoom: 0.85;"></i>
+      <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
     </a>
   </li>
   <li>
@@ -530,13 +530,110 @@
 <main class="content">
     <div id="contact" class="container chip-container">
         <div class="card">
-            <div class="card-content">
+            <!-- <div class="card-content">
                 <div class="tag-title center-align">
-                    <i class="fas fa-comments"></i>&nbsp;&nbsp;Contact
+                    <i class="fas fa-comments"></i>&nbsp;&nbsp;留言板
                 </div>
                 
-            </div>
+            </div> -->
             <!--valine评论弹幕-->
+            
+                <p>
+                    <b>畅所欲言</b><br>
+                    <b>在这里可以留下你的足迹，欢迎在下方留言，欢迎交换友链</b><br>
+                    <b>友链信息</b><br>
+                    <b>博客名称: 东来梁蕴秀</b><br>
+                    <b>博客网址: http://example.com</b><br>
+                    <b>博客头像: http://example.com/medias/logo.png</b><br>
+                    <b>博客介绍: 犹豫就会败北</b><br>
+                </p>
+                <div class="container">
+                    <section id="custom" class="bb-section">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <form class="form-inline">
+                                    <div class="form-group">
+                                        文字：<input class="form-control" name="info" type="text" placeholder="hello, world"/>
+                                    </div>
+                                    <div class="form-group">
+                                        链接：<input class="form-control" name="href" type="text" placeholder="https://github.com/blinkfox/hexo-theme-matery"/>
+                                    </div>
+                                    <div class="form-group">
+                                        速度：<input  class="form-control"  name="speed" type="text" placeholder="5~20" value="16" />
+                                    </div>
+                                </form>
+                                <div class="form-group">
+                                    <button id="send"  class="btn" onclick="run()">留言</button>
+                                    <button id="clear" class="btn " onclick="clear_barrage()"> 清除</button>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <script type="text/javascript">
+                    AV.init({
+                        appId: 'GX273lGWIUGuVjisG02GprBd-gzGzoHsz',
+                        appKey: 'rZ7gvPU1gzxTMmTxaauEnCnd'
+                    });
+
+                    $(function() {
+                        do_barrager();
+                        async function do_barrager() {
+                            let lists = [];
+                            //查询弹幕
+                            const query = new AV.Query('barrager');
+                            const barrager = await query.find().then((barrager) => {
+                                lists = barrager;
+                            })
+                            let length = lists.length;
+                            let index = 0;
+                            const timer = setInterval(() => {
+                                if (index === length) {
+                                    clearInterval(timer);
+                                    do_barrager()
+                                } else {
+                                    let obj = lists[index]
+                                    let jsonObject = eval('(' + JSON.stringify(obj) + ')');
+                                    $('body').barrager({
+                                        'img': '/medias/barrager/' + Math.floor(Math.random() * 3) + ".png",
+                                        'href': jsonObject.href,
+                                        'info': jsonObject.info,
+                                        'speed': jsonObject.speed
+                                    });
+                                    index++;
+                                }
+                            }, 500)
+                        }
+                    });
+
+                    //发送弹幕
+                    function  run(){
+                        let info = $('input[name=info]').val();
+                        (info === '' ) ?  info='hello world' : info=info;
+                        let href = $('input[name=href]').val();
+                        (href === '' ) ?  href='https://github.com/blinkfox/hexo-theme-matery' : href=href;
+                        let speed = parseInt($('input[name=speed]').val());
+                        if(speed > 20 || speed < 5)
+                            speed = Math.floor(Math.random() * 10) + 5;
+                        const Barrager = AV.Object.extend('barrager');
+                        const barrager = new Barrager();
+                        barrager.set('href', href);
+                        barrager.set('info', info);
+                        barrager.set('speed', speed);
+                        barrager.save().then((todo) => {
+                            $(" input[ name='info' ] ").val("")
+                            $(" input[ name='href' ] ").val("")
+                            $(" input[ name='speed' ] ").val("")
+                        });
+                    }
+
+                    function  clear_barrage()
+                    {
+                        $.fn.barrager.removeAll();
+                    }
+
+                </script>
             
         </div>
 
@@ -645,7 +742,7 @@
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
             
-                <span id="year">2019-2023</span>
+                <span id="year">2020-2023</span>
             
             <a href="/about" target="_blank">determination</a>
             |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
@@ -655,8 +752,8 @@
             
             <br>
             
-                &nbsp;<i class="fas fa-chart-area"></i>&nbsp;Total Words:&nbsp;<span
-                        class="white-color">123</span>
+                &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
+                        class="white-color">172</span>
             
             
             
@@ -664,13 +761,13 @@
             
             
                 <span id="busuanzi_container_site_pv">
-                &nbsp;|&nbsp;<i class="far fa-eye"></i>&nbsp;Total visits:&nbsp;
+                &nbsp;|&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;
                     <span id="busuanzi_value_site_pv" class="white-color"></span>
             </span>
             
             
                 <span id="busuanzi_container_site_uv">
-                &nbsp;|&nbsp;<i class="fas fa-users"></i>&nbsp;Total visitors:&nbsp;
+                &nbsp;|&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;
                     <span id="busuanzi_value_site_uv" class="white-color"></span>
             </span>
             
@@ -723,8 +820,8 @@
 <div id="searchModal" class="modal">
     <div class="modal-content">
         <div class="search-header">
-            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;Search</span>
-            <input type="search" id="searchInput" name="s" placeholder="Please enter a search keyword"
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
                    class="search-input">
         </div>
         <div id="searchResult"></div>
@@ -893,10 +990,6 @@ $(function () {
     <!-- 鼠标星星特效 -->
     
 
-     
-        <script src="https://ssl.captcha.qq.com/TCaptcha.js"></script>
-        <script src="/libs/others/TencentCaptcha.js"></script>
-        <button id="TencentCaptcha" data-appid="xxxxxxxxxx" data-cbfn="callback" type="button" hidden></button>
     
 
     <!-- Baidu Analytics -->

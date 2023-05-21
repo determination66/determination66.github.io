@@ -1,10 +1,10 @@
 <!DOCTYPE HTML>
-<html lang="zh-cn">
+<html lang="zh-CN">
 
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="About, 东来梁蕴秀">
+    <meta name="keywords" content="关于, 东来梁蕴秀">
     <meta name="description" content="这是一个用hexo技术搭建的个人使用的博客！！！">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -28,7 +28,7 @@
 </script>
 
 
-    <title>About | 东来梁蕴秀</title>
+    <title>关于 | 东来梁蕴秀</title>
     <link rel="icon" type="image/png" href="/favicon.png">
     
 
@@ -217,7 +217,7 @@
   
   <li>
     <a href="#searchModal" class="modal-trigger waves-effect waves-light">
-      <i id="searchIcon" class="fas fa-search" title="Search" style="zoom: 0.85;"></i>
+      <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
     </a>
   </li>
   <li>
@@ -523,21 +523,21 @@
                         
 <div class="statis">
     <span class="count"><a href="/">3</a></span>
-    <span class="name">Posts</span>
+    <span class="name">文章</span>
 </div>
 
 
 
 <div class="statis">
     <span class="count"><a href="/categories">2</a></span>
-    <span class="name">Categories</span>
+    <span class="name">分类</span>
 </div>
 
 
 
 <div class="statis">
     <span class="count"><a href="/tags">3</a></span>
-    <span class="name">Tags</span>
+    <span class="name">标签</span>
 </div>
 
 
@@ -553,21 +553,21 @@
                                     
 <div class="statis">
     <span class="count"><a href="/">3</a></span>
-    <span class="name">Posts</span>
+    <span class="name">文章</span>
 </div>
 
 
 
 <div class="statis">
     <span class="count"><a href="/categories">2</a></span>
-    <span class="name">Categories</span>
+    <span class="name">分类</span>
 </div>
 
 
 
 <div class="statis">
     <span class="count"><a href="/tags">3</a></span>
-    <span class="name">Tags</span>
+    <span class="name">标签</span>
 </div>
 
 
@@ -664,7 +664,7 @@
 
 <div id="postCharts" class="post-charts">
     <div class="title center-align" data-aos="zoom-in-up">
-        <i class="far fa-bar-chart"></i>&nbsp;&nbsp;Post Charts
+        <i class="far fa-bar-chart"></i>&nbsp;&nbsp;文章统计图
     </div>
     <div class="row">
         <div class="chart col s12 m6 l4" data-aos="zoom-in-up">
@@ -691,7 +691,7 @@
 
     let postsOption = {
         title: {
-            text: 'Post Publish Chart',
+            text: '文章发布统计图',
             top: -5,
             x: 'center'
         },
@@ -707,7 +707,7 @@
         },
         series: [
             {
-                name: 'Number of posts',
+                name: '文章篇数',
                 type: 'line',
                 color: ['#6772e5'],
                 data: [0,0,0,0,0,0,0,0,0,0,0,0,3],
@@ -717,17 +717,17 @@
                     data: [{
                         type: 'max',
                         itemStyle: {color: ['#3ecf8e']},
-                        name: 'Maximum'
+                        name: '最大值'
                     }, {
                         type: 'min',
                         itemStyle: {color: ['#fa755a']},
-                        name: 'Minimum'
+                        name: '最小值'
                     }]
                 },
                 markLine: {
                     itemStyle: {color: ['#ab47bc']},
                     data: [
-                        {type: 'average', name: 'Average'}
+                        {type: 'average', name: '平均值'}
                     ]
                 }
             }
@@ -738,7 +738,7 @@
 
     let categoriesOption = {
         title: {
-            text: 'Categories Chart',
+            text: '文章分类统计图',
             top: -4,
             x: 'center'
         },
@@ -748,11 +748,11 @@
         },
         series: [
             {
-                name: 'Categories',
+                name: '分类',
                 type: 'pie',
                 radius: '50%',
                 color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
-                data: [{"name":"记录整理","value":1},{"name":"测试","value":1}],
+                data: [{"name":"测试","value":1},{"name":"记录整理","value":1}],
                 itemStyle: {
                     emphasis: {
                         shadowBlur: 10,
@@ -768,7 +768,7 @@
 
     let tagsOption = {
         title: {
-            text: 'TOP10 Tags Chart',
+            text: 'TOP10 标签统计图',
             top: -5,
             x: 'center'
         },
@@ -776,7 +776,7 @@
         xAxis: [
             {
                 type: 'category',
-                data: ["Markdown","常用链接整理","test"]
+                data: ["Markdown","test","常用链接整理"]
             }
         ],
         yAxis: [
@@ -795,17 +795,17 @@
                     data: [{
                         type: 'max',
                         itemStyle: {color: ['#3ecf8e']},
-                        name: 'Maximum'
+                        name: '最大值'
                     }, {
                         type: 'min',
                         itemStyle: {color: ['#fa755a']},
-                        name: 'Minimum'
+                        name: '最小值'
                     }],
                 },
                 markLine: {
                     itemStyle: {color: ['#ab47bc']},
                     data: [
-                        {type: 'average', name: 'Average'}
+                        {type: 'average', name: '平均值'}
                     ]
                 }
             }
@@ -825,7 +825,7 @@
                 
 <div class="my-skills">
     <div class="title center-align" data-aos="zoom-in-up">
-        <i class="fas fa-wrench"></i>&nbsp;&nbsp;My Skills
+        <i class="fas fa-wrench"></i>&nbsp;&nbsp;我的技能
     </div>
     <div class="row">
         
@@ -903,12 +903,12 @@
 
     
     <div class="other-skills chip-container" data-aos="zoom-in-up">
-        <div class="sub-title center-align"><i class="fa fa-book"></i>&nbsp;&nbsp;Other Skills</div>
+        <div class="sub-title center-align"><i class="fa fa-book"></i>&nbsp;&nbsp;其他技能</div>
         <div class="tag-chips center-align">
             
             
-            <a href="/tags/%E5%B8%B8%E7%94%A8%E9%93%BE%E6%8E%A5%E6%95%B4%E7%90%86/">
-                <span class="chip center-align waves-effect waves-light chip-default">常用链接整理</span>
+            <a href="/tags/test/">
+                <span class="chip center-align waves-effect waves-light chip-default">test</span>
             </a>
             
             
@@ -919,8 +919,8 @@
             
             
             
-            <a href="/tags/test/">
-                <span class="chip center-align waves-effect waves-light chip-default">test</span>
+            <a href="/tags/%E5%B8%B8%E7%94%A8%E9%93%BE%E6%8E%A5%E6%95%B4%E7%90%86/">
+                <span class="chip center-align waves-effect waves-light chip-default">常用链接整理</span>
             </a>
             
             
@@ -936,7 +936,7 @@
                 
 <div id="myGallery" class="my-gallery">
     <div class="title center-align" data-aos="zoom-in-up">
-        <i class="far fa-image"></i>&nbsp;&nbsp;Gallery
+        <i class="far fa-image"></i>&nbsp;&nbsp;相册
     </div>
     <div class="row">
         
@@ -1082,7 +1082,7 @@
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
             
-                <span id="year">2019-2023</span>
+                <span id="year">2020-2023</span>
             
             <a href="/about" target="_blank">determination</a>
             |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
@@ -1092,8 +1092,8 @@
             
             <br>
             
-                &nbsp;<i class="fas fa-chart-area"></i>&nbsp;Total Words:&nbsp;<span
-                        class="white-color">123</span>
+                &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
+                        class="white-color">172</span>
             
             
             
@@ -1101,13 +1101,13 @@
             
             
                 <span id="busuanzi_container_site_pv">
-                &nbsp;|&nbsp;<i class="far fa-eye"></i>&nbsp;Total visits:&nbsp;
+                &nbsp;|&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;
                     <span id="busuanzi_value_site_pv" class="white-color"></span>
             </span>
             
             
                 <span id="busuanzi_container_site_uv">
-                &nbsp;|&nbsp;<i class="fas fa-users"></i>&nbsp;Total visitors:&nbsp;
+                &nbsp;|&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;
                     <span id="busuanzi_value_site_uv" class="white-color"></span>
             </span>
             
@@ -1160,8 +1160,8 @@
 <div id="searchModal" class="modal">
     <div class="modal-content">
         <div class="search-header">
-            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;Search</span>
-            <input type="search" id="searchInput" name="s" placeholder="Please enter a search keyword"
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
                    class="search-input">
         </div>
         <div id="searchResult"></div>
@@ -1330,10 +1330,6 @@ $(function () {
     <!-- 鼠标星星特效 -->
     
 
-     
-        <script src="https://ssl.captcha.qq.com/TCaptcha.js"></script>
-        <script src="/libs/others/TencentCaptcha.js"></script>
-        <button id="TencentCaptcha" data-appid="xxxxxxxxxx" data-cbfn="callback" type="button" hidden></button>
     
 
     <!-- Baidu Analytics -->
