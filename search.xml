@@ -5,16 +5,24 @@
     
     <entry>
       <title>常用链接整理</title>
-      <link href="/2023/05/18/chang-yong-lian-jie-zheng-li/"/>
-      <url>/2023/05/18/chang-yong-lian-jie-zheng-li/</url>
+      <link href="/2023/05/23/chang-yong-lian-jie-zheng-li/"/>
+      <url>/2023/05/23/chang-yong-lian-jie-zheng-li/</url>
       
-        <content type="html"><![CDATA[<ul><li>chatgpt<a href="https://chat.openai.com/">chatgpt</a></li><li>chatgpt镜像<a href="https://chat9.yqcloud.top/#/chat/1679916255487">chatgpt</a></li></ul>]]></content>
+        <content type="html"><![CDATA[<blockquote><p>这个将会总结我使用的很多链接，我会维护着，因为这就是一种方便的工具。</p></blockquote><ul><li>chatgpt<a href="https://chat.openai.com/">chatgpt</a></li><li>chatgpt镜像<a href="https://chat9.yqcloud.top/#/chat/1679916255487">chatgpt</a></li><li>hexo文档(hexo文档)[<a href="https://hexo.io/zh-cn/docs/]">https://hexo.io/zh-cn/docs/]</a></li></ul>]]></content>
       
+      
+      <categories>
+          
+          <category> 记录整理 </category>
+          
+      </categories>
       
       
         <tags>
             
-            <tag> 常用链接 </tag>
+            <tag> 常用链接整理 </tag>
+            
+            <tag> Markdown </tag>
             
         </tags>
       
@@ -40,7 +48,7 @@
       <link href="/2023/05/07/test/"/>
       <url>/2023/05/07/test/</url>
       
-        <content type="html"><![CDATA[<blockquote><blockquote><p>你好</p></blockquote></blockquote><p>**** hh</p>]]></content>
+        <content type="html"><![CDATA[<blockquote><p>你好</p></blockquote><p>**** hh</p>]]></content>
       
       
       <categories>
@@ -52,9 +60,9 @@
       
         <tags>
             
-            <tag> test </tag>
-            
             <tag> Markdown </tag>
+            
+            <tag> test </tag>
             
         </tags>
       

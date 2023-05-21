@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>东来梁蕴秀</title>
   
-  <subtitle> 游走创意的博客世界</subtitle>
+  <subtitle>游走创意的博客世界</subtitle>
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-05-18T04:27:43.066Z</updated>
+  <updated>2023-05-20T12:24:55.583Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -18,26 +18,32 @@
   
   <entry>
     <title>常用链接整理</title>
-    <link href="http://example.com/2023/05/18/chang-yong-lian-jie-zheng-li/"/>
-    <id>http://example.com/2023/05/18/chang-yong-lian-jie-zheng-li/</id>
-    <published>2023-05-18T04:24:48.000Z</published>
-    <updated>2023-05-18T04:27:43.066Z</updated>
+    <link href="http://example.com/2023/05/23/chang-yong-lian-jie-zheng-li/"/>
+    <id>http://example.com/2023/05/23/chang-yong-lian-jie-zheng-li/</id>
+    <published>2023-05-23T12:25:00.000Z</published>
+    <updated>2023-05-20T12:24:55.583Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;ul&gt;
-&lt;li&gt;chatgpt&lt;a href=&quot;https://chat.openai.com/&quot;&gt;chatgpt&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;chatgpt镜像&lt;a</summary>
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;这个将会总结我使用的很多链接，我会维护着，因为这就是一种方便的工具。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;chatgpt&lt;a</summary>
         
       
     
     
     
+    <category term="记录整理" scheme="http://example.com/categories/%E8%AE%B0%E5%BD%95%E6%95%B4%E7%90%86/"/>
     
-    <category term="常用链接" scheme="http://example.com/tags/%E5%B8%B8%E7%94%A8%E9%93%BE%E6%8E%A5/"/>
+    
+    <category term="常用链接整理" scheme="http://example.com/tags/%E5%B8%B8%E7%94%A8%E9%93%BE%E6%8E%A5%E6%95%B4%E7%90%86/"/>
+    
+    <category term="Markdown" scheme="http://example.com/tags/Markdown/"/>
     
   </entry>
   
@@ -67,7 +73,7 @@
     <link href="http://example.com/2023/05/07/test/"/>
     <id>http://example.com/2023/05/07/test/</id>
     <published>2023-05-07T01:25:00.000Z</published>
-    <updated>2023-05-19T16:34:21.709Z</updated>
+    <updated>2023-05-20T12:20:58.117Z</updated>
     
     
       
@@ -75,9 +81,7 @@
         
         
     <summary type="html">&lt;blockquote&gt;
-&lt;blockquote&gt;
 &lt;p&gt;你好&lt;/p&gt;
-&lt;/blockquote&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;****</summary>
         
@@ -88,9 +92,9 @@
     <category term="测试" scheme="http://example.com/categories/%E6%B5%8B%E8%AF%95/"/>
     
     
-    <category term="test" scheme="http://example.com/tags/test/"/>
-    
     <category term="Markdown" scheme="http://example.com/tags/Markdown/"/>
+    
+    <category term="test" scheme="http://example.com/tags/test/"/>
     
   </entry>
   
