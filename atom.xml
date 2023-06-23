@@ -6,7 +6,7 @@
   <link href="http://determination66.top/atom.xml" rel="self"/>
   
   <link href="http://determination66.top/"/>
-  <updated>2023-05-21T15:20:59.904Z</updated>
+  <updated>2023-05-25T03:31:34.793Z</updated>
   <id>http://determination66.top/</id>
   
   <author>
@@ -17,11 +17,41 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>QT基础与入门与常用组件</title>
+    <link href="http://determination66.top/2023/05/25/qt-ji-chu-yu-ru-men-zu-jian/"/>
+    <id>http://determination66.top/2023/05/25/qt-ji-chu-yu-ru-men-zu-jian/</id>
+    <published>2023-05-25T03:24:47.000Z</published>
+    <updated>2023-05-25T03:31:34.793Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;​	Qt在桌面开发，嵌入式开发，移动应用开发，游戏开发，数据可视化开发，音视频，图片等等开发当中起到很重要的作用。其最为总要的优势就是跨平台并且已经封装好了许多常用图形开发组件，方便开发者快速开发出可视乎程序。&lt;/p&gt;
+&lt;/blockquote&gt;
+</summary>
+        
+      
+    
+    
+    
+    <category term="记录整理" scheme="http://determination66.top/categories/%E8%AE%B0%E5%BD%95%E6%95%B4%E7%90%86/"/>
+    
+    
+    <category term="Markdown" scheme="http://determination66.top/tags/Markdown/"/>
+    
+    <category term="QT" scheme="http://determination66.top/tags/QT/"/>
+    
+  </entry>
+  
+  <entry>
     <title>常用链接整理</title>
     <link href="http://determination66.top/2023/05/23/chang-yong-lian-jie-zheng-li/"/>
     <id>http://determination66.top/2023/05/23/chang-yong-lian-jie-zheng-li/</id>
     <published>2023-05-23T12:25:00.000Z</published>
-    <updated>2023-05-21T15:20:59.904Z</updated>
+    <updated>2023-06-23T12:57:10.573Z</updated>
     
     
       
@@ -32,7 +62,8 @@
 &lt;p&gt;这个将会总结我使用的很多链接，我会维护着，因为这就是一种方便的工具。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;ul&gt;
-&lt;li&gt;chatgpt&lt;a</summary>
+&lt;li&gt;&lt;a href=&quot;https://chat.openai.com/&quot;&gt;chatgpt&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a</summary>
         
       
     

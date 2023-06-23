@@ -4,11 +4,38 @@
   
     
     <entry>
+      <title>QT基础与入门与常用组件</title>
+      <link href="/2023/05/25/qt-ji-chu-yu-ru-men-zu-jian/"/>
+      <url>/2023/05/25/qt-ji-chu-yu-ru-men-zu-jian/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>​Qt在桌面开发，嵌入式开发，移动应用开发，游戏开发，数据可视化开发，音视频，图片等等开发当中起到很重要的作用。其最为总要的优势就是跨平台并且已经封装好了许多常用图形开发组件，方便开发者快速开发出可视乎程序。</p></blockquote><h3 id="QT简介"><a href="#QT简介" class="headerlink" title="QT简介"></a>QT简介</h3>]]></content>
+      
+      
+      <categories>
+          
+          <category> 记录整理 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Markdown </tag>
+            
+            <tag> QT </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>常用链接整理</title>
       <link href="/2023/05/23/chang-yong-lian-jie-zheng-li/"/>
       <url>/2023/05/23/chang-yong-lian-jie-zheng-li/</url>
       
-        <content type="html"><![CDATA[<blockquote><p>这个将会总结我使用的很多链接，我会维护着，因为这就是一种方便的工具。</p></blockquote><ul><li>chatgpt<a href="https://chat.openai.com/">chatgpt</a></li><li>chatgpt镜像<a href="https://chat9.yqcloud.top/#/chat/1679916255487">chatgpt</a></li><li>hexo文档(hexo文档)[<a href="https://hexo.io/zh-cn/docs/]">https://hexo.io/zh-cn/docs/]</a></li></ul>]]></content>
+        <content type="html"><![CDATA[<blockquote><p>这个将会总结我使用的很多链接，我会维护着，因为这就是一种方便的工具。</p></blockquote><ul><li><a href="https://chat.openai.com/">chatgpt</a></li><li><a href="https://chat9.yqcloud.top/">chatgpt镜像</a></li><li><a href="https://chat.jinshutuan.com/">chatgpt镜像</a></li><li><a href="https://hexo.io/zh-cn/docs/">hexo文档</a></li><li><a href="https://www.kdocs.cn/l/cezndH7rPQ8l">暑假学习文档</a></li></ul>]]></content>
       
       
       <categories>
