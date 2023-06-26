@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="常用链接整理, 东来梁蕴秀">
+    <meta name="keywords" content="git合作, 东来梁蕴秀">
     <meta name="description" content="常用链接整理">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -28,7 +28,7 @@
 </script>
 
 
-    <title>常用链接整理 | 东来梁蕴秀</title>
+    <title>git合作 | 东来梁蕴秀</title>
     <link rel="icon" type="image/png" href="/favicon.png">
     
 
@@ -453,12 +453,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/17.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/14.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">常用链接整理</h1>
+                    <h1 class="description center-align post-title">git合作</h1>
                 </div>
             </div>
         </div>
@@ -509,21 +509,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2023-05-23
+                    2023-06-27
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2023-06-23
+                    2023-06-27
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    47
+                    282
                 </div>
                 
 
@@ -554,15 +554,42 @@
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <blockquote>
-<p>这个将会总结我使用的很多链接，我会维护着，因为这就是一种方便的工具。</p>
+<p>首先创建一个仓库，然后比如现在仓库当中已经有代码了，那么想要参与项目,假设我们现在有一个远程仓库，这个是多人合作笔记,我们共同合作的代码main（master）</p>
 </blockquote>
-<ul>
-<li><a target="_blank" rel="noopener" href="https://chat.openai.com/">chatgpt</a></li>
-<li><a target="_blank" rel="noopener" href="https://chat9.yqcloud.top/">chatgpt镜像</a></li>
-<li><a target="_blank" rel="noopener" href="https://chat.jinshutuan.com/">chatgpt镜像</a></li>
-<li><a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/">hexo文档</a></li>
-<li><a target="_blank" rel="noopener" href="https://www.kdocs.cn/l/cezndH7rPQ8l">暑假学习文档</a></li>
-</ul>
+<blockquote>
+<p> 合作完成git项目，当前有一个仓库，然后比如现在仓库当中已经有代码了，那么想要参与项目,假设我们现在有一个远程仓库，这个是多人合作笔记,我们共同合作的代码main（master）</p>
+</blockquote>
+<ol>
+<li><p><strong>git clone</strong> 克隆下来</p>
+</li>
+<li><p><strong>git checkout -b</strong> my-feature     //复制一份到Local</p>
+<p>或者  <strong>git switch -c</strong> my-feature</p>
+</li>
+<li><p>git diff   //查看改了什么   </p>
+</li>
+<li><p>git add .  //添加到暂存区</p>
+</li>
+<li><p>git commit -m “相关备注”</p>
+</li>
+<li><p>git push origin my-feature     //在Remote中添加分支</p>
+</li>
+<li><p>git checkout main    //切换分支</p>
+</li>
+<li><p>git pull origin master   //远端同步到本地</p>
+</li>
+<li><p>git checkout my-feature   //切换到my-feature</p>
+</li>
+<li><p>git rebase main   //合并，处理冲突,相当于在my-feather修改了</p>
+</li>
+<li><p>git push -f origin my-feather //然后再remote上面多了一个my-feather最新改动</p>
+</li>
+<li><p>squash and merge //合并，删除远端的my-feather</p>
+</li>
+<li><p>git branch -D my-feather</p>
+</li>
+<li><p>git pull origin master</p>
+</li>
+</ol>
 
                 
             </div>
@@ -589,7 +616,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://determination66.top/2023/05/23/chang-yong-lian-jie-zheng-li/">http://determination66.top/2023/05/23/chang-yong-lian-jie-zheng-li/</a>
+                    <a href="http://determination66.top/2023/06/27/git-he-zuo/">http://determination66.top/2023/06/27/git-he-zuo/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -978,9 +1005,64 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
+            <div class="card">
+                <a href="/2023/06/27/git-he-zuo/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="git合作">
+                        
+                        <span class="card-title">git合作</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            常用链接整理
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-06-27
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E8%AE%B0%E5%BD%95%E6%95%B4%E7%90%86/" class="post-category">
+                                    记录整理
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E5%B8%B8%E7%94%A8%E9%93%BE%E6%8E%A5%E6%95%B4%E7%90%86/">
+                        <span class="chip bg-color">常用链接整理</span>
+                    </a>
+                    
+                    <a href="/tags/Markdown/">
+                        <span class="chip bg-color">Markdown</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
             <div class="card">
                 <a href="/2023/05/25/qt-ji-chu-yu-ru-men-zu-jian/">
                     <div class="card-image">
@@ -998,9 +1080,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2023-05-25
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-05-25
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -1022,59 +1104,6 @@
                     
                     <a href="/tags/QT/">
                         <span class="chip bg-color">QT</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
-            </div>
-            <div class="card">
-                <a href="/2023/05/21/wo-zai-da-jian-de-shi-hou-yu-dao-de-wen-ti-zong-jie/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="我在搭建的时候遇到的问题总结">
-                        
-                        <span class="card-title">我在搭建的时候遇到的问题总结</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            常用链接整理
-                        
-                    </div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2023-05-21
-                            </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/%E8%AE%B0%E5%BD%95%E6%95%B4%E7%90%86/" class="post-category">
-                                    记录整理
-                                </a>
-                            
-                            
-                        </span>
-                    </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/hexo/">
-                        <span class="chip bg-color">hexo</span>
-                    </a>
-                    
-                    <a href="/tags/matery/">
-                        <span class="chip bg-color">matery</span>
                     </a>
                     
                 </div>

@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>git合作</title>
+      <link href="/2023/06/27/git-he-zuo/"/>
+      <url>/2023/06/27/git-he-zuo/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>首先创建一个仓库，然后比如现在仓库当中已经有代码了，那么想要参与项目,假设我们现在有一个远程仓库，这个是多人合作笔记,我们共同合作的代码main（master）</p></blockquote><blockquote><p> 合作完成git项目，当前有一个仓库，然后比如现在仓库当中已经有代码了，那么想要参与项目,假设我们现在有一个远程仓库，这个是多人合作笔记,我们共同合作的代码main（master）</p></blockquote><ol><li><p><strong>git clone</strong> 克隆下来</p></li><li><p><strong>git checkout -b</strong> my-feature     //复制一份到Local</p><p>或者  <strong>git switch -c</strong> my-feature</p></li><li><p>git diff   //查看改了什么   </p></li><li><p>git add .  //添加到暂存区</p></li><li><p>git commit -m “相关备注”</p></li><li><p>git push origin my-feature     //在Remote中添加分支</p></li><li><p>git checkout main    //切换分支</p></li><li><p>git pull origin master   //远端同步到本地</p></li><li><p>git checkout my-feature   //切换到my-feature</p></li><li><p>git rebase main   //合并，处理冲突,相当于在my-feather修改了</p></li><li><p>git push -f origin my-feather //然后再remote上面多了一个my-feather最新改动</p></li><li><p>squash and merge //合并，删除远端的my-feather</p></li><li><p>git branch -D my-feather</p></li><li><p>git pull origin master</p></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 记录整理 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 常用链接整理 </tag>
+            
+            <tag> Markdown </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>QT基础与入门与常用组件</title>
       <link href="/2023/05/25/qt-ji-chu-yu-ru-men-zu-jian/"/>
       <url>/2023/05/25/qt-ji-chu-yu-ru-men-zu-jian/</url>

@@ -6,7 +6,7 @@
   <link href="http://determination66.top/atom.xml" rel="self"/>
   
   <link href="http://determination66.top/"/>
-  <updated>2023-05-25T03:31:34.793Z</updated>
+  <updated>2023-06-26T16:36:17.456Z</updated>
   <id>http://determination66.top/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>git合作</title>
+    <link href="http://determination66.top/2023/06/27/git-he-zuo/"/>
+    <id>http://determination66.top/2023/06/27/git-he-zuo/</id>
+    <published>2023-06-26T16:24:59.000Z</published>
+    <updated>2023-06-26T16:36:17.456Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;首先创建一个仓库，然后比如现在仓库当中已经有代码了，那么想要参与项目,假设我们现在有一个远程仓库，这个是多人合作笔记,我们共同合作的代码main（master）&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="记录整理" scheme="http://determination66.top/categories/%E8%AE%B0%E5%BD%95%E6%95%B4%E7%90%86/"/>
+    
+    
+    <category term="常用链接整理" scheme="http://determination66.top/tags/%E5%B8%B8%E7%94%A8%E9%93%BE%E6%8E%A5%E6%95%B4%E7%90%86/"/>
+    
+    <category term="Markdown" scheme="http://determination66.top/tags/Markdown/"/>
+    
+  </entry>
   
   <entry>
     <title>QT基础与入门与常用组件</title>
