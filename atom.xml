@@ -6,7 +6,7 @@
   <link href="http://determination66.top/atom.xml" rel="self"/>
   
   <link href="http://determination66.top/"/>
-  <updated>2023-06-28T02:30:42.525Z</updated>
+  <updated>2023-07-27T01:57:53.500Z</updated>
   <id>http://determination66.top/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>比较通用的cmake处理qt的CMakeLists.txt</title>
+    <link href="http://determination66.top/2023/07/27/bi-jiao-tong-yong-de-cmake-chu-li-qt-de-cmakelists-txt/"/>
+    <id>http://determination66.top/2023/07/27/bi-jiao-tong-yong-de-cmake-chu-li-qt-de-cmakelists-txt/</id>
+    <published>2023-07-27T01:56:16.000Z</published>
+    <updated>2023-07-27T01:57:53.500Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;CMake工具可以及其方便的将你的代码组织在一起，本CMakeLists.txt旨在写一份通用的，方便我后续使用，备份下来，欢迎指正&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre class=&quot;line-numbers language-cpp&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="记录整理" scheme="http://determination66.top/categories/%E8%AE%B0%E5%BD%95%E6%95%B4%E7%90%86/"/>
+    
+    
+    <category term="Markdown" scheme="http://determination66.top/tags/Markdown/"/>
+    
+    <category term="常用链接整理" scheme="http://determination66.top/tags/%E5%B8%B8%E7%94%A8%E9%93%BE%E6%8E%A5%E6%95%B4%E7%90%86/"/>
+    
+  </entry>
   
   <entry>
     <title>git合作</title>
